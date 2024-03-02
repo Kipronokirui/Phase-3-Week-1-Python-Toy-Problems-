@@ -1,7 +1,6 @@
-def solution(A):
+def getMinimumNumberOfMoves(A):
     N = len(A)
 
-    # Calculate the total number of bricks
     total_bricks = sum(A)
 
     # Check if total is divisible by the number of boxes
@@ -22,5 +21,5 @@ def solution(A):
 
     return moves
 
-result = solution([11, 10, 8, 12, 8, 10, 11])
+result = getMinimumNumberOfMoves([11, 10, 8, 12, 8, 10, 11])
 print(result) 
